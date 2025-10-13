@@ -1,0 +1,6 @@
+Flask==2.3.3
+pytest==7.4.2
+
+pytest
+pytest-cov
+codecov

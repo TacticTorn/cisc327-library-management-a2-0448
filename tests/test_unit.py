@@ -8,7 +8,7 @@ ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 if ROOT not in sys.path:
     sys.path.insert(0, ROOT)
 
-from library_service import (
+from services.library_service import (
     add_book_to_catalog,
     return_book_by_patron,
     calculate_late_fee_for_book,
